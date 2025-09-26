@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 function App() {
-  const [selectedName, setSelectedName] = useState("");
+  const [selectedName, setSelectedName] = useState("...");
   const [bgColor, setBgColor] = useState("lightgray");
 
-  const names = ["Temur", "Madina", "Diyor"];
-  const colors = ["red", "blue", "green"];
+  const names = ["Muhammadiyor", "Alisher", "Izzatillo"];
+  const colors = ["red", "blue", "orange"];
 
   return (
     <div style={{ padding: "20px" }}>

@@ -5,7 +5,7 @@ function App() {
   const [bgColor, setBgColor] = useState("lightgray");
 
   const names = ["Temur", "Madina", "Diyor"];
-  const colors = ["red", "blue", "green"];
+  const colors = ["red", "blue", "orange"];
 
   return (
     <div style={{ padding: "20px" }}>
